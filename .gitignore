@@ -1,0 +1,74 @@
+# General OS files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Build artifacts (binaries, object files, libraries)
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.so
+*.dll
+*.lib
+*.a
+*.lo
+
+# Visual Studio and Windows build
+*.pdb
+*.ilk
+*.ipch
+*.suo
+*.user
+*.userosscache
+*.VC.db
+*.VC.opendb
+
+# CMake
+/CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+cmake-build-*/
+
+# Debug / Release folders and common build dirs
+/build/
+/bin/
+/Debug/
+/debug/
+/Release/
+/release/
+
+# GCC/Clang coverage and reports
+*.gcda
+*.gcno
+*.gcov
+coverage/
+
+# IDEs and editors
+/.vscode/
+/.idea/
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# JetBrains
+.idea/
+*.iml
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+*.cache
+*.swp
+
+# Environment files
+.env
+.env.local
+
+# Other
+node_modules/
+dist/
